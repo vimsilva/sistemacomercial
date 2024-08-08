@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-08-08T17:17:41.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="W640FHo_ZlKE4ICRlA6g" version="24.6.3" type="device">
+  <diagram name="Página-1" id="yLTzS1p68xuyKO3XiRlo">
+    <mxGraphModel dx="1213" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE6d8VRSHbp8uiTZa6iU-1" target="DE6d8VRSHbp8uiTZa6iU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-1" value="Serviço de Lançamentos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-2" value="Postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="60" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE6d8VRSHbp8uiTZa6iU-4" target="DE6d8VRSHbp8uiTZa6iU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE6d8VRSHbp8uiTZa6iU-4" target="DE6d8VRSHbp8uiTZa6iU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-4" value="Serviço de Saldo Consolidado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-5" value="Postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-8" value="RabbitMq" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DE6d8VRSHbp8uiTZa6iU-1" target="DE6d8VRSHbp8uiTZa6iU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="312" y="170" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="510" y="167" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DE6d8VRSHbp8uiTZa6iU-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="48" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

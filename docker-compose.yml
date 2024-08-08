@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  lancamentos:
+    image: ${DOCKER_REGISTRY-}lancamentos
+    build:
+      context: .
+      dockerfile: Lancamentos/Dockerfile
+
+  saldo-consolidado:
+    image: ${DOCKER_REGISTRY-}saldo-consolidado
+    build:
+      context: .
+      dockerfile: SaldoConsolidado/Dockerfile

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SaldoConsolidado": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
